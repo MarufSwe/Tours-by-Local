@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="15dp"
+    android:orientation="vertical"
+    tools:context=".FindGuide">
+
+    <!--<ListView-->
+        <!--android:id="@+id/findGuideListView"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+    <!--</ListView>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_weight="15"
+        android:weightSum="3"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:background="#fff">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/findGuide_pic1"
+            android:layout_width="130dp"
+            android:layout_height="120dp"
+            android:src="@drawable/guide2"
+            android:paddingTop="3dp"
+            app:civ_border_width="4dp"
+            android:paddingLeft="3dp"
+            app:civ_border_color="@color/colorAccent"/>
+
+
+        <Button
+            android:id="@+id/findGuideDetails1"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:gravity="center"
+            android:text="Sheiblu Islam\n Age: 24 \n Phone: 01671794064 "
+            android:textColor="@color/colorAccent"
+            android:background="#ffffff"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+</LinearLayout>

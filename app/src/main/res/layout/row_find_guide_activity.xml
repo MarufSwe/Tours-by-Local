@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginTop="15dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/findGuideImage"
+            android:layout_width="130dp"
+            android:layout_height="120dp"
+            android:src="@drawable/guide2"
+            app:civ_border_width="4dp"
+            app:civ_border_color="@color/colorAccent"/>
+
+
+        <TextView
+            android:id="@+id/findGuide_details1"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:gravity="center"
+            android:text="Sheiblu"
+            android:textColor="@color/colorAccent"
+            android:background="#ffffff"
+            android:textSize="20dp" />
+
+</LinearLayout>

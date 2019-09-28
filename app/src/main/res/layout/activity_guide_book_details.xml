@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GuideBookDetails">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:background="#fff">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/guide_image"
+            android:layout_width="match_parent"
+            android:layout_height="174dp"
+            android:src="@drawable/maruf"
+            android:layout_marginTop="15dp"
+            app:civ_border_color="@color/colorAccent"
+            app:civ_border_width="4dp" />
+
+        <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="5dp"-->
+        <!--android:layout_marginTop="25dp"-->
+        <!--android:text="Khan Maruf \nAge: 23 \nAddress: Mirpur,Dhaka \nNationality: Bangladesh \nEmail: maruf@gmail.com \nRating: 4.88"-->
+        <!--android:textColor="@color/black"-->
+        <!--android:textSize="15dp" />-->
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/guide_name"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:text="KHAN MARUF"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/round_button"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:paddingLeft="70dp"
+        android:text="Contact with guide."
+        android:textColor="@color/colorAccent"
+        android:textSize="44px"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/contact_with_guide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:paddingLeft="70dp"
+        android:text="Age: 23 \nAddress: Mirpur,Dhaka \nNationality: Bangladesh \nPhone: 01711187538 \nSkype: khanmaruf.swe \nGmail: khanmaruf.swe@gmail.com"
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:paddingLeft="70dp"
+        android:text="LANGUAGE."
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="44px"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="70dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="BANGLA:"
+            android:textColor="@color/colorAccent"
+            android:textSize="34px"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/guide_language_bangla"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="100%"
+            android:textColor="@color/purple"
+            android:textSize="40px"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="ENGLISH:"
+            android:textColor="@color/colorAccent"
+            android:textSize="34px"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/guide_language_english"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="90%"
+            android:textColor="@color/purple"
+            android:textSize="40px"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="TOURS GIVEN"
+        android:paddingLeft="70dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="44px"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/guide_given_tour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:paddingLeft="70dp"
+        android:text="167"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:textSize="35dp" />
+
+
+
+    <Button
+        android:id="@+id/btn_bookGuide"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:text="Book This Guide"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/round_button"/>
+
+
+
+</LinearLayout>

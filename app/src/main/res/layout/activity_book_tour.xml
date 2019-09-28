@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".BookTour">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:text="   Book This Tour!"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@color/colorAccent"
+        android:layout_marginBottom="5dp"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fff"
+            android:orientation="vertical">
+
+
+            <Spinner
+                android:id="@+id/touristSelectNoOfPeople"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/round_button"
+                android:entries="@array/studentClass"
+                android:spinnerMode="dialog"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="31dp" />
+
+
+            <!--<EditText-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:layout_marginLeft="15dp"-->
+                <!--android:layout_marginRight="15dp"-->
+                <!--android:layout_marginTop="3dp"-->
+                <!--android:textColor="#FFFFFF"-->
+                <!--android:background="@drawable/round_button"-->
+                <!--android:hint="Email"-->
+                <!--android:inputType="textPersonName"-->
+                <!--android:paddingLeft="10dp" />-->
+
+
+            <EditText
+                android:id="@+id/touristPhoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="3dp"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/round_button"
+                android:hint="Phone"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:text="SELECT CANCELLATION POLICY:"
+                android:gravity="center"
+                android:textSize="18dp"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:background="@color/colorAccent"/>
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="25"
+                android:weightSum="3"
+                android:orientation="horizontal"
+                android:background="#fff">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
+                    android:text="\n      ***Standard***\n\n* if you cancel 60 days or more before the tour: no cancellation fee.\n* if you cancel 59 to 30 days before the tour: 20% cancellation fee.\n* if you cancel less than 30 days before the tour: 100% cancellation fee (unless 'force majeure' applies)..\n* Force majeure reasons are impersonal events such as terrorism, war, volcanoes, weather, earthquake or natural disaster. If you are on a ship and it is unable to dock for whatever reason, you are covered under this 'force majeure' provision."
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+                    android:background="@color/colorAccent"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
+                    android:background="@color/colorAccent"
+                    android:textColor="@color/white"
+                    android:text="\n  ***24 Hour Reason***\n\n* Full refund for ANY reason, provided you inform ToursByLocals of the cancellation 24 hours or more before the start of the tour.\n* If you do NOT cancel the tour, a coupon for 100% of the policy option cost will be emailed to you after the tour. It can be used towards ANY ToursByLocals tour and is valid for 2 years from the date of your tour. You can even give the coupon to family or friends!\n* Cost of this policy is 10% of the amount payable to ToursByLocals."
+                    android:textSize="18dp" />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent">
+
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="7dp"
+                    android:textSize="15dp"
+                    android:paddingLeft="10dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="SELECT CANCELLATION POLICY:"/>
+
+                <Spinner
+                    android:id="@+id/select_cancellation_policy"
+                    android:layout_width="145dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="7dp"
+                    android:prompt="@string/selectpolicy"
+                    android:entries="@array/selectPolicy"
+                    android:spinnerMode="dialog"
+                    tools:layout_editor_absoluteX="8dp"
+                    tools:layout_editor_absoluteY="31dp" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/confirm_tour_btn"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Confirm Your Tour"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:gravity="center"
+                android:background="@drawable/round_button"/>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfirmGuideBook">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:text="   Book This Guide!"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@color/colorAccent"
+        android:layout_marginBottom="5dp"/>
+
+
+    <Spinner
+        android:id="@+id/touristSelectNoOfPeople"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:entries="@array/studentClass"
+        android:spinnerMode="dialog"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="31dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:text="START TOUR:"
+            android:textColor="@color/colorAccent"
+            android:textSize="25px"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/textTourStartDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:hint="12 july 2019"
+            android:textColor="@color/purple"
+            android:textSize="30px"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:text="END TOUR:"
+            android:textColor="@color/colorAccent"
+            android:textSize="25px"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/textTourEndDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:hint="15 july 2019"
+            android:textColor="@color/purple"
+            android:textSize="30px"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="Guide BUDGET:"
+            android:textColor="@color/colorAccent"
+            android:textSize="30px"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/textTourBudget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:hint="4000 Taka"
+            android:textColor="@color/purple"
+            android:textSize="30px"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

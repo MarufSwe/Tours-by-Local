@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FinalCheckout">
+
+
+    <TextView
+        android:id="@+id/tourOverview"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:text="Tour Overview"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@color/colorAccent"
+        android:layout_marginBottom="5dp"/>
+
+
+    <TextView
+        android:id="@+id/nope"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:paddingLeft="70dp"
+        android:text="Tour Details."
+        android:layout_marginTop="15dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="44px"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tourDistrict"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:paddingLeft="70dp"
+        android:text="Dhakaaa"
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+
+    <TextView
+        android:id="@+id/tourHeadline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:paddingLeft="70dp"
+        android:text="Bisnakandi, 2 night 3 days. \n 3 Person with #BD1167 guide."
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:paddingLeft="70dp"
+        android:text="Date and Time."
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="44px"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/startTour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:paddingLeft="70dp"
+        android:text="Start: 12 July 2019."
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/endTour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:paddingLeft="70dp"
+        android:text="End: 13 July 2019"
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:paddingLeft="70dp"
+        android:text="Price."
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="44px"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tourBudget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:paddingLeft="70dp"
+        android:text="4500 Taka only."
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/check_out_btn"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:text="Check Out"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/round_button"/>
+
+
+
+</LinearLayout>

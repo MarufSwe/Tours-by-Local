@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginRight="15dp"
+    android:layout_marginTop="15dp"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tourDistrict"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dhaka"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#fff">
+
+        <ImageView
+            android:id="@+id/tourImage"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_weight="1.5"
+            android:scaleType="fitXY"
+            android:src="@drawable/sylhet"/>
+
+        <TextView
+            android:id="@+id/tourHeadline"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="One 2 ( 1 Night/ 2 Days)"
+            android:textColor="@color/purple"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tourCapacity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:layout_marginTop="7dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:paddingBottom="5dp"
+            android:text="Tour Capacity"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:id="@+id/tourEnrolled"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:paddingBottom="5dp"
+            android:textSize="18dp"
+            android:text="Tour Enrolled"/>
+
+        <TextView
+            android:id="@+id/tourBudget"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:paddingBottom="10dp"
+            android:textSize="44px"
+            android:text="Budget"/>
+
+        <Button
+            android:id="@+id/btnTourDetails"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/round_button"
+            android:text="View Details"
+            android:textColor="@color/white"
+            android:layout_marginBottom="10dp"
+            android:textSize="13dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

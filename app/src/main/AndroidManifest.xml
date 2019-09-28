@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.toursbylocal">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ConfirmGuideBook"></activity>
+        <activity android:name=".BookGuide" />
+        <activity android:name=".GuideBookDetails" />
+        <activity android:name=".FindGuide" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginRegistration" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegistrationActivity" />
+        <activity android:name=".HomeActivity" /> <!-- <activity -->
+        <!-- android:name=".NavigationBar" -->
+        <!-- android:label="@string/title_activity_navigation_bar" -->
+        <!-- android:theme="@style/AppTheme" /> -->
+        <!-- <activity -->
+        <!-- android:name=".AllFunctions" -->
+        <!-- android:label="@string/title_activity_all_functions" -->
+        <!-- android:theme="@style/AppTheme.NoActionBar" /> -->
+        <activity android:name=".FindTour" />
+        <activity android:name=".TourDetailsWithGuide" />
+        <activity android:name=".BookTour" />
+        <activity android:name=".ConfirmTour" />
+        <activity android:name=".GuideProfile" />
+        <activity
+            android:name=".Fucntional"
+            android:label="@string/title_activity_fucntional"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".FinalCheckout" />
+        <activity android:name=".PaymentSystem" />
+    </application>
+
+</manifest>

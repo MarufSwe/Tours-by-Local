@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorAccent"
+    tools:context=".FindTour">
+
+    <ListView
+        android:id="@+id/myList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+
+    <!--&lt;!&ndash;<ListView&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/findTourListView"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content">&ndash;&gt;-->
+    <!--&lt;!&ndash;</ListView>&ndash;&gt;-->
+
+
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Dhaka"-->
+        <!--android:gravity="center"-->
+        <!--android:textSize="18dp"-->
+        <!--android:textColor="@color/white"-->
+        <!--android:textStyle="bold"-->
+        <!--android:layout_marginTop="5dp"-->
+        <!--android:layout_marginBottom="5dp"/>-->
+
+
+
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:orientation="vertical">-->
+
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical"-->
+        <!--android:background="#fff">-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/imageViewEquipment"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="120dp"-->
+            <!--android:layout_weight="1.5"-->
+            <!--android:scaleType="fitXY"-->
+            <!--android:src="@drawable/sylhet"/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:text="One 2 ( 1 Night/ 2 Days)"-->
+            <!--android:textColor="@color/purple"-->
+            <!--android:gravity="center"-->
+            <!--android:textSize="18dp"-->
+            <!--android:textStyle="bold"/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textStyle="italic"-->
+            <!--android:layout_marginTop="7dp"-->
+            <!--android:gravity="center"-->
+            <!--android:textColor="@color/black"-->
+            <!--android:paddingBottom="10dp"-->
+            <!--android:textSize="44px"-->
+            <!--android:text="5 Capacities. 06 person enrolled \n Start Time: 2009-05-14. End Time: 2009-06-1. \n Budget: 3100 Taka Guide: Sheiblu"/>-->
+
+
+            <!--<Button-->
+                <!--android:id="@+id/btnTourDetails"-->
+                <!--android:layout_width="130dp"-->
+                <!--android:layout_height="40dp"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:background="@drawable/round_button"-->
+                <!--android:text="View Details"-->
+                <!--android:textColor="@color/white"-->
+                <!--android:layout_marginBottom="10dp"-->
+                <!--android:textSize="13dp"/>-->
+
+        <!--</LinearLayout>-->
+
+
+
+            <!--&lt;!&ndash;<LinearLayout&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_marginTop="2dp"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:orientation="vertical"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:background="#fff">&ndash;&gt;-->
+
+                <!--&lt;!&ndash;<ImageView&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_height="120dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:scaleType="fitXY"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:src="@drawable/sylhet1" />&ndash;&gt;-->
+
+                <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_weight="1.7"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:text="Tea Garden, 1 night 2 days"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:textColor="@color/purple"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:gravity="center"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:textSize="18dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:textStyle="bold"/>&ndash;&gt;-->
+
+                <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_marginTop="7dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:gravity="center"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:paddingBottom="10dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:text="15 Capacities. 12 person enrolled \n Start Time: 12 July. End Time: 15 July. \n Budget: 4500 Taka Guide: Khan Maruf "&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:textColor="@color/black"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:textSize="44px"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:textStyle="italic" />&ndash;&gt;-->
+
+
+                <!--&lt;!&ndash;<Button&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_width="130dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_height="40dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_gravity="center"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:background="@drawable/round_button"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:text="View Details"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:textColor="@color/white"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_marginBottom="10dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:textSize="13dp"/>&ndash;&gt;-->
+
+            <!--</LinearLayout>-->
+
+
+</LinearLayout>

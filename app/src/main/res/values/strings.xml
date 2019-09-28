@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Local Tourist</string>
+    <string name="title_activity_navigation_bar">NavigationBar</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_all_functions">AllFunctions</string>
+
+
+    <string name="selectclass"></string>
+    <string-array name="studentClass">
+        <item>Select number of people</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+    </string-array>
+
+
+    <string name="selectpolicy"></string>
+    <string-array name="selectPolicy">
+        <item>Choose...</item>
+        <item>Standard (free)</item>
+        <item>24 Hour Any Reason (105 USD)</item>
+    </string-array>
+
+
+    <string name="payment"></string>
+    <string-array name="paymentType">
+        <item>Choose...</item>
+        <item>Cash</item>
+        <item>bKash</item>
+        <item>rocket...</item>
+        <item>iPay</item>
+        <item>mKash</item>
+        <item>Visa Card</item>
+        <item>Debit Card</item>
+    </string-array>
+
+    <string name="title_activity_fucntional">Fucntional</string>
+</resources>

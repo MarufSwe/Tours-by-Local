@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorAccent"
+    tools:context=".TourDetailsWithGuide">
+
+    <TextView
+        android:id="@+id/textTourDistrict"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bisnakandi Tour"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"/>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fff"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/imgTourCoverImage"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/sylhet" />
+
+            <TextView
+                android:id="@+id/textTourTitle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Bisnakandi, 2 night 3 days"
+                android:textColor="@color/purple"
+                android:gravity="center"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="Details."
+                android:layout_marginTop="5dp"
+                android:textColor="@color/colorAccent"
+                android:textSize="34px"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/textTourDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:text="Bisnakandi is a village situated in Rustompur Union under Guainghat Upazilla. This is where many layers of the Khasi mountain meet at a single point from both sides. Flowing from above is a high fall. Adding to its charm are dark clouds hugging the mountain in the rainy season."
+                android:textColor="@color/black"
+                android:textSize="34px"
+                android:textStyle="normal"/>
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:text="WHAT’S INCLUDED."
+                android:textColor="@color/colorAccent"
+                android:textSize="34px"
+                android:textStyle="bold" />
+
+
+
+            <TextView
+                android:id="@+id/textWhatInclude"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:paddingBottom="5dp"
+                android:text="* Train/Bus tickets.\n* Basic accommodation on twin share basis.\n* All meals and daily mineral water.\n* All entry fees.\n* Local transportation, guide and other costs."
+                android:textColor="@color/black"
+                android:textSize="34px"
+                android:textStyle="normal" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:text="WHAT’S EXTRA."
+                android:textColor="@color/colorAccent"
+                android:textSize="34px"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textWhaExtra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:textSize="30px"
+                android:text="Other: Client should carry with them the following items: \n
+* Umbrella or rain coats, Leech socks, Mosquito repellent, first aid kit, basic medicine, towel, binoculars, hat, sunscreen lotion etc"
+                android:textStyle="normal"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="TOURIST CAPACITY:"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="30px"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textTouristCapacity"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="10"
+                    android:textColor="@color/purple"
+                    android:textSize="30px"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="TOURIST ENROLLED:"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="30px"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textTouristEnrolled"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="06"
+                    android:textColor="@color/purple"
+                    android:textSize="30px"
+                    android:layout_marginBottom="8dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="START TOUR:"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="25px"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textTourStartDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="12 july 2019"
+                    android:textColor="@color/purple"
+                    android:textSize="30px"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="END TOUR:"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="25px"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textTourEndDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="15 july 2019"
+                    android:textColor="@color/purple"
+                    android:textSize="30px"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="TOUR BUDGET:"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="30px"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textTourBudget"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="4000 Taka"
+                    android:textColor="@color/purple"
+                    android:textSize="30px"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/btnMeetingPoint"
+                android:layout_width="220dp"
+                android:layout_height="40dp"
+                android:text="Tour Meeting Point"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:layout_marginBottom="5dp"
+                android:gravity="center"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/round_button"/>
+
+            <!--<TextView-->
+                <!--android:id="@+id/textMeetingPoint"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="5dp"-->
+                <!--android:paddingBottom="5dp"-->
+                <!--android:textColor="@color/black"-->
+                <!--android:textSize="34px"-->
+                <!--android:text="Meeting Point : Airport  Railway Station. \nEnd Point : Airport Railway Station."-->
+                <!--android:textStyle="normal"/>-->
+
+
+
+
+            <!--<TextView-->
+                <!--android:id="@+id/meetYourGuide"-->
+                <!--android:layout_width="220dp"-->
+                <!--android:layout_height="30dp"-->
+                <!--android:text="MEET YOUR GUIDE"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:textColor="@color/white"-->
+                <!--android:textStyle="bold"-->
+                <!--android:textSize="18dp"-->
+                <!--android:gravity="center"-->
+                <!--android:layout_marginTop="25dp"-->
+                <!--android:background="@drawable/round_button"/>-->
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="25"
+                android:background="#fff"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="170dp"
+                    android:layout_height="174dp"
+                    android:layout_marginRight="10dp"
+                    android:paddingLeft="70dp"
+                    android:src="@drawable/guide2"
+                    app:civ_border_color="@color/colorAccent"
+                    app:civ_border_width="4dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="50dp"
+                    android:text="Sheiblu Islam \nAge: 23"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/btnGuideDetails"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:text="GUIDE DETAILS"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:layout_marginBottom="5dp"
+                android:gravity="center"
+                android:background="@drawable/round_button"/>
+
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="5dp"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:text="LANGUAGE."-->
+                <!--android:paddingLeft="70dp"-->
+                <!--android:textColor="@color/colorAccent"-->
+                <!--android:textSize="44px"-->
+                <!--android:textStyle="bold" />-->
+
+
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="5dp"-->
+                <!--android:paddingLeft="70dp"-->
+                <!--android:text="BANGLA : __________100%-->
+                <!--\nENGLISH : ________80%-->
+                 <!--\nHINDI : ______60%"-->
+                <!--android:textColor="@color/black"-->
+                <!--android:textSize="15dp" />-->
+
+
+
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="5dp"-->
+                <!--android:layout_marginTop="20dp"-->
+                <!--android:text="Date."-->
+                <!--android:paddingLeft="70dp"-->
+                <!--android:textColor="@color/colorAccent"-->
+                <!--android:textSize="44px"-->
+                <!--android:textStyle="bold" />-->
+
+
+            <!--<ImageView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="200dp"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:src="@drawable/calender" />-->
+
+
+            <Button
+                android:id="@+id/btnSubmitBookNow"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="BOOK NOW"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:layout_marginBottom="15dp"
+                android:gravity="center"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/round_button"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

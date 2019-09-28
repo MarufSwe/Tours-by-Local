@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PaymentSystem">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:text="Payment System"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@color/colorAccent"
+        android:layout_marginBottom="5dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:paddingLeft="70dp"
+        android:text="Payment Type"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="44px"
+        android:textStyle="bold" />
+
+
+    <Spinner
+        android:id="@+id/stu_class"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="70dp"
+        android:entries="@array/paymentType"
+        android:spinnerMode="dialog"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="31dp" />
+
+    <Button
+        android:id="@+id/submit_deal"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:text="Submit Your Deal"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/round_button"/>
+
+
+</LinearLayout>
